@@ -9,6 +9,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/landing-page",
+      "handler": "landing-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
       "path": "/landing-page",
       "handler": "landing-page.update",
